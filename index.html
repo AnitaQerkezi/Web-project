@@ -7,48 +7,7 @@
      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <title>Chess Game-Kryefaqja</title>
     <link rel="stylesheet" href="css/style.css">
-    <script>
-        function validate (number){
-    var inputList = document.getElementsByClassName("input");
-    if (number == 0){
-        //login
-        if(inputList[0].value ==""|| inputList[1].value ==""){
-            alert("Please fill data")
-        }
-        else{
-             alert("Login successfull")
-            }
-            
-    }else if(number == 1){
-        if(inputList[0].value ==""|| inputList[1].value ==""){
-            alert("Please fill data")
-        }
-        else{
-             alert("Login successfull")
-            }
-    }  
-}
-function changeForm(param){
-    var divList =document.getElementsByClassName("forms");
-    if (param == 0){
-        //show login
-        divList[0].classList.add('form-style');
-        divList[0].classList.remove('hidden');
-        //hide register
-        divList[1].classList.remove('form-style');
-        divList[1].classList.add('hidden');
-    } else if (param == 1) {
-        //show register
-        divList[1].classList.add('form-style');
-        divList[1].classList.remove('hidden');
-        //hide login
-        divList[0].classList.remove('form-style');
-        divList[0].classList.add('hidden');
-
-        
-    }
-}
-    </script>
+   <link rel="stylesheet" href="script.js">
 </head>
 <body>
 <nav class ="navbar">
